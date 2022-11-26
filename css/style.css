@@ -1,0 +1,72 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+}
+
+.container {
+  width: 1300px;
+  max-width: 95%;
+  margin: auto;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+.container-nav {
+  box-sizing: border-box;
+  width: 100%;
+  background: linear-gradient(rgba(0,0,0, .40), rgba(0,0,0, .0));
+}
+.nav-ul{
+  display: flex;
+  padding: .8rem;
+  margin: 0;
+}
+
+.nav-p{
+  margin: 0;
+  padding: 1rem;
+  align-self: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-ul li {
+  padding: 1rem;
+  list-style: none;
+}
+.container-top {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+}
+.hero {
+  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(/asset/Profile3.jpg);
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+}
+
+.des{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* align-self: center; */
+  margin: auto;
+  color: white;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.fr{
+  color: rgb(216, 56, 227);
+  font-size: larger;
+  font-weight: bolder;
+}
