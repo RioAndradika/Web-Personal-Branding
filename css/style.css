@@ -48,7 +48,7 @@ nav{
   justify-content: space-between;
 }
 .hero {
-  background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(/asset/Profile3.jpg);
+  background: linear-gradient(rgba(48,16,8,.50), rgba(48,16,8,.50)), url(/asset/Profile3.jpg);
   height: 100vh;
   width: auto;
   background-size: cover;
